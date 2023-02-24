@@ -1,0 +1,253 @@
+
+.CSTM_MENU_TITLE {
+    overflow: hidden;
+    list-style-type: none;
+    float: top;
+    float: left;
+    resize: none;
+    border-radius: 10px;
+    padding: 2pt;
+    padding-bottom: 2pt;
+    margin-top: 2pt;
+    max-width: 21%;
+    margin-right: 2pt;
+    height: 100%;
+    border-style: outset;
+    border-color: rgb(151, 0, 0);
+    background: linear-gradient(to right, rgb(219, 0, 0), darkred, rgb(128, 0, 0));
+    outline-color: rgb(255, 238, 0);
+    outline-style: outset;
+    text-shadow: 2px 2px #000000;
+    font-size: larger;
+    display: grid;
+    position: relative;
+    color: white;
+    border: 0px;
+    text-align: center;
+    width:110pt;
+    vertical-align: middle;
+    
+    
+   
+
+}
+
+.CSTM_MENU_ITEM {
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: auto;
+    padding: 0pt;
+    border: #000000;
+    border:medium;
+    
+    
+}
+
+.CSTM_MENU_ITEM nav {
+    overflow: hidden;
+    list-style-type: none;
+    display:block;
+    vertical-align: auto;
+    padding: 0pt;
+    
+}
+
+.SUB-CSTM_MENU_ITEM ul{
+    display: none;
+    overflow: hidden;
+    vertical-align: auto;
+    padding: 0pt;
+
+}
+
+
+.CSTM_MENU_ITEM:hover ul li {
+    overflow: hidden;
+    cursor: grab;
+    width: 100%;
+    border: black;
+    border: 10pt;
+    color: rgb(255, 255, 255);
+    display: block;
+    background: linear-gradient(to right, rgba(199, 162, 0, 0.527),rgba(218, 165, 32, 0.541), #c7a20081);
+    outline: auto;
+    outline-color: hsla(64, 100%, 40%, 0.527);
+    outline-style: ridge;
+    list-style-type: none;
+    color: #eeff00; 
+}
+
+.CSTM_MENU_ITEM:hover {
+    overflow: hidden;
+    cursor: grab;
+    width: 100%;
+    border: black;
+    border: 10pt;
+    color: rgb(255, 255, 255);
+    display: block;
+    background: linear-gradient(to right, rgba(199, 162, 0, 0.527),rgba(218, 165, 32, 0.541), #c7a20081);
+    outline: auto;
+    outline-color: hsla(64, 100%, 40%, 0.527);
+    outline-style: ridge;
+    list-style-type: none;
+    color: #eeff00;
+
+
+}
+
+
+
+.CSTM_MENU_TITLE .CSTM_MENU_ITEM:active{
+    overflow: visible;
+    display:inline-flex;
+    list-style-type: none;
+
+    cursor: grabbing;
+
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+body {
+    background-color:rgb(0, 0, 0);
+    padding: 0px;
+    text-shadow: 2px 2px #000000;
+
+}
+
+
+br{
+
+}
+
+img{
+    width: 100pt;
+    float: left;
+}
+
+.CSTM_TTL_BLC h1{/* This is the box for the Header of the Page*/
+    
+
+    float:inline-start;
+    
+    display: inline-block;
+    width: max-content;
+    margin-block-end: 1%;
+    border-radius: 10px;
+    padding-left: 10%;
+    height: auto;
+    border-style: outset;
+    border-color: rgb(151, 0, 0);
+    background: linear-gradient(rgb(219, 0, 0), darkred, rgb(128, 0, 0));
+    outline-color: rgb(255, 238, 0);
+    outline-style: outset;
+    text-shadow: 2px 2px #000000;
+    margin-top: 2pt;
+    
+
+    
+}
+
+
+
+.CSTM_TTL h1{/* This is the Header of the Page*/
+    width: inherit;
+    padding: 1%;
+    padding-right: 15%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    
+
+    align-items: left;
+    display: inherit;
+    
+}
+.CSTM_CNTNT_BOX {/*This is the Header for the content box*/
+    border-color: rgb(107, 0, 0);
+    outline-color: rgb(255, 238, 0);
+    outline-style: outset;
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: inline-block;
+    background: linear-gradient(rgb(219, 0, 0), darkred, rgb(128, 0, 0));
+    width: fit-content;
+    color:rgb(255, 255, 255);
+    padding: 0pt;
+    border-style: ridge;
+    text-shadow: 2px 2px #000000;
+    position: static;
+    resize: none;
+    float: left;
+    margin-top: 2pt;
+    margin-bottom: none;
+    margin-left: 4pt;
+    border-bottom: none;
+    
+    
+
+
+}
+
+
+.CSTM_CNTNT_BOX:hover{/*This is the Header for the content box*/
+    border-color: rgb(107, 0, 0);
+    outline-color: rgb(255, 238, 0);
+    outline-style: outset;
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: inline-block;
+    background: linear-gradient(rgb(219, 0, 0), darkred, rgb(128, 0, 0));
+    width: inherit;
+    color:rgb(212, 209, 0);
+    padding: 0pt;
+    border-style: ridge;
+    text-shadow: 2px 2px #000000;
+    position: static;
+    resize: none;
+    float: left;
+
+}
+
+.CSTM_CNTNT{
+
+    font-size: larger;
+    text-indent: 10px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
+    outline-style: groove;
+    
+    background: linear-gradient(rgb(180, 0, 0),rgb(22, 0, 0));
+    max-width: max-content;
+    min-width: fit-content;
+    margin-left: -92pt;
+    min-height: ;
+    max-height: ;
+    float: right;
+    margin-top: 38pt;
+    margin-right: 1%;
+    position: fixed;
+    display:inline-block;
+    height: 70%;
+   
+    resize: both;
+    
+    padding: 10px;
+
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline-color: rgb(255, 238, 0);
+
+    
+}
